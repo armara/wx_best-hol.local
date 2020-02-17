@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Pacifico";
+}
+.w {
+  margin: 0 auto;
+  white-space: nowrap;
+  width: 100%;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: rgba(66, 66, 66, .5) url('/images/92f97eb687616cef5dab946c06d48611.jpg') repeat fixed;
+  background-position: 50% 100%;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+  font-size: 0;
+}
+.i {
+  width: 40px;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  z-index: 4;
+  padding: 2px;
+  transition: all 1.3s ease-in-out;
+  background: rgba(66, 66, 66, .5) url('/images/b9342b7c57d087a650d11b828c97447b.jpg') repeat fixed;
+  background-size: cover;
+  background-position: 50% 100%;
+  border-radius: 0%;
+}
+.i:hover {
+  transition: all 0s linear;
+  opacity: 0;
+}
+
+.text-height{
+  position: absolute;
+  top: 23vw;
+  z-index: 10;
+}
+
+.breadcrumbs-text {
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-weight: 300;
+  color: rgb(255, 255, 255, 0.8);
+}
+
+.white{
+  color: white;
+}
+.border-bottom{
+  border-bottom: 2px solid white;
+}
+.breadcrumbs-text-h1{
+  font-size: 3rem;
+  color: white;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+
+.erkrordakan{
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.pointer{
+  cursor: pointer;
+}
